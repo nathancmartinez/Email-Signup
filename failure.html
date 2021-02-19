@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Error!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="newsletterApp.css">
+    </head>
+    <body class="text-center">
+
+        <main class="form-signin">
+
+            <img class="email-logo" src="images/email-icon-99.png" alt="" width="72" height="57">
+
+            <h1 class="h3 mb-3 fw-normal">Oh no...</h1>
+            
+            <div class="container">
+
+                <p class="h5 mb-3 fw-normal text-muted error-display">Sorry, something didn't work.</p>
+                <hr>
+                <p class="h6 mb-3 fw-normal text-muted">Please resubmit.</p>
+
+            </div>
+            
+            <form action="/failure" method="POST">
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit" name="button">Click here to try again.</button>
+
+            </form>
+
+            <p class="mt-5 mb-3 text-muted">&copy; NCM 2021</p>
+
+        </main>
+
+    </body>
+
+</html>

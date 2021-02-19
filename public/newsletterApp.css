@@ -1,0 +1,64 @@
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+p {
+  padding-top: 1.5rem;
+}
+
+hr {
+  height: 2px;
+}
+
+div {
+  background-color: #fff;
+  border-radius: .3rem;
+  border: 1px solid #ced4da;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.email-logo {
+  margin: 3rem;
+}
+
+.input-email {
+  margin-bottom: 1rem;
+}
+
+.first-name {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -1px;
+}
+
+.last-name {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-bottom: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
